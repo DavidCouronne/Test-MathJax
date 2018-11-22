@@ -18,10 +18,18 @@
   $$\dfrac{\Delta f}{\Delta x}(x) = \dfrac{\sqrt{x+h}-\sqrt{x}}{h}$$
   La fonction \(u+v : x \mapsto u(x) + v(x)\) est dérivable sur \(I\) et on a \((u+v)' = u' + v'\).
 </p>
+
+<h1>Utilsation de tikzwolke</h1>
 <script type="text/tikz">
-    \begin{tikzpicture}
-      \draw (0,0) circle (1in);
+    \begin{tikzpicture} 
+    \draw (0,0) -- (1,0) ; 
+    \draw (0,0) -- (0,1) ; 
+    \draw (0,0) circle (1) ; 
+    \draw (0,0) node[below]{$O$} ; 
+    \draw (1,0) node[right]{$A$} ; 
+    \draw (0,1) node[above]{$B$} ; 
     \end{tikzpicture}
+
   </script>
 </body>
 </html>
