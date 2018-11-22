@@ -3,10 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>MathJax example</title>
+  <title>Tests MathJax</title>
   <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async>
 </script>
+<script src="https://tikzwolke.com/v1/tikzwolke.js"></script>
 </head>
 <body>
 <p>
@@ -17,5 +18,10 @@
   $$\dfrac{\Delta f}{\Delta x}(x) = \dfrac{\sqrt{x+h}-\sqrt{x}}{h}$$
   La fonction \(u+v : x \mapsto u(x) + v(x)\) est dérivable sur \(I\) et on a \((u+v)' = u' + v'\).
 </p>
+<script type="text/tikz">
+    \begin{tikzpicture}
+      \draw (0,0) circle (1in);
+    \end{tikzpicture}
+  </script>
 </body>
 </html>
